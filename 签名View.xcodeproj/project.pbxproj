@@ -15,6 +15,8 @@
 		91436E6F1D9385930083288C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91436E6D1D9385930083288C /* LaunchScreen.storyboard */; };
 		91436E7A1D9385930083288C /* __ViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91436E791D9385930083288C /* __ViewTests.m */; };
 		91436E851D9385930083288C /* __ViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91436E841D9385930083288C /* __ViewUITests.m */; };
+		91436E941D9386170083288C /* CHSignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91436E931D9386170083288C /* CHSignatureView.m */; };
+		91436E971D938E870083288C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91436E961D938E870083288C /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		91436E801D9385930083288C /* 签名ViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "签名ViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91436E841D9385930083288C /* __ViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __ViewUITests.m; sourceTree = "<group>"; };
 		91436E861D9385930083288C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91436E921D9386170083288C /* CHSignatureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHSignatureView.h; sourceTree = "<group>"; };
+		91436E931D9386170083288C /* CHSignatureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHSignatureView.m; sourceTree = "<group>"; };
+		91436E951D938E870083288C /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		91436E961D938E870083288C /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				91436E631D9385930083288C /* AppDelegate.m */,
 				91436E651D9385930083288C /* ViewController.h */,
 				91436E661D9385930083288C /* ViewController.m */,
+				91436E921D9386170083288C /* CHSignatureView.h */,
+				91436E931D9386170083288C /* CHSignatureView.m */,
+				91436E951D938E870083288C /* SecondViewController.h */,
+				91436E961D938E870083288C /* SecondViewController.m */,
 				91436E681D9385930083288C /* Main.storyboard */,
 				91436E6B1D9385930083288C /* Assets.xcassets */,
 				91436E6D1D9385930083288C /* LaunchScreen.storyboard */,
@@ -276,6 +286,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91436E971D938E870083288C /* SecondViewController.m in Sources */,
+				91436E941D9386170083288C /* CHSignatureView.m in Sources */,
 				91436E671D9385930083288C /* ViewController.m in Sources */,
 				91436E641D9385930083288C /* AppDelegate.m in Sources */,
 				91436E611D9385930083288C /* main.m in Sources */,
